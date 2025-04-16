@@ -123,7 +123,7 @@ export function prepareFormData({
 	query,
 	instanceId,
 	useResponseData,
-	appendAttribution = true,
+	appendAttribution = false,
 	buttonLabel,
 	customCss,
 }: {
@@ -517,7 +517,7 @@ export async function formWebhook(
 
 		let formSubmittedText;
 		let redirectUrl;
-		let appendAttribution = true;
+		let appendAttribution = false;
 
 		if (options.respondWithOptions) {
 			const values = (options.respondWithOptions as IDataObject).values as IDataObject;

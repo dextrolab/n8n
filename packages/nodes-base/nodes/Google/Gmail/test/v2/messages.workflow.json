@@ -66,7 +66,7 @@
 				"subject": "Test Subject",
 				"message": "Test Message",
 				"options": {
-					"appendAttribution": true,
+					"appendAttribution": false,
 					"attachmentsUi": {
 						"attachmentsBinary": [{}, {}]
 					},
